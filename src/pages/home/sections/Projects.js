@@ -14,7 +14,7 @@ function ProjectsSection() {
     useEffect(() => {
         let mounted = true;
         if(mounted) {
-            axios.get('https://api.github.com/users/etibarsaidbayli/repos')
+            axios.get('https://api.github.com/users/sardarliyusif/repos')
                 .then (({ data: response }) => setList(response))
         } 
        return () => mounted = false;

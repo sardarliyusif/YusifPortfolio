@@ -71,7 +71,7 @@ function AboutSection() {
           <li>Tailwind Css</li>
           <li>Redux</li>
           <li>Sass</li>
-          <li>Vue JS</li>
+          <li>TypeScript</li>
         </TechList>
       </main>
     </SectionWrapper>

@@ -27,7 +27,7 @@ function HeroSection() {
               </HeroTextContainer>
               <AnchorTheme
                 themeColor={themeColor}
-                href="https://api.whatsapp.com/send?phone=994506661009"
+                href="https://api.whatsapp.com/send?phone=994552249105"
                 target="_blank"
                 rel="noreferrer"
                 className="btn px-5 py-3"
@@ -36,7 +36,7 @@ function HeroSection() {
               </AnchorTheme>
               <AnchorTheme
                 themeColor={themeColor}
-                href="https://drive.google.com/file/d/1EVrD5L7yvAsTMJHQaoCryPP3GwxJmgRi/view"
+                href="https://drive.google.com/file/d/1-Cxq6lE9ZkV0H2pfB15zLs_iV50R4ADK/view"
                 download
                 className="btn px-5 py-3"
               >

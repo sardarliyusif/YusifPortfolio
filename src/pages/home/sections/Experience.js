@@ -83,21 +83,21 @@ function ExperienceSection() {
         "Focus on performance and perfect detailed pages",
       ],
     },
-    {
-      id: 1,
-      company: {
-        name: "RAM Holding",
-      },
-      title: "Front-End-Developer",
-      phase: "Aug 2022 - Still",
-      descriptions: [
-        "Creating landing pages and web applications with   javascript, React JS, Vue Js for a diverse array of clients",
-      ],
-    },
+    // {
+    //   id: 1,
+    //   company: {
+    //     name: "RAM Holding",
+    //   },
+    //   title: "Front-End-Developer",
+    //   phase: "Aug 2022 - Still",
+    //   descriptions: [
+    //     "Creating landing pages and web applications with   javascript, React JS, Vue Js for a diverse array of clients",
+    //   ],
+    // },
   ];
 
   let [themeColor, setThemeColor] = useState([themesColors[2]]);
-  let [currentTab, setCurrentTab] = useState(experiences[1]);
+  let [currentTab, setCurrentTab] = useState(experiences[0]);
 
   return (
     <section className="row py-5">
