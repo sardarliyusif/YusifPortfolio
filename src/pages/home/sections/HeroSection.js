@@ -4,6 +4,9 @@ import styled from "styled-components";
 import Dude from "../../../common/components/Dude";
 import themesColors from "../../../common/constants/themesColors";
 
+import { AiFillLinkedin , AiFillGithub , AiFillInstagram } from "react-icons/ai";
+import { FaTelegram } from "react-icons/fa";
+
 function HeroSection() {
   let [themeColor, setThemeColor] = useState([themesColors[0]]);
   return (
@@ -22,26 +25,61 @@ function HeroSection() {
                 </SecondaryTitleTheme>
               </div>
               <HeroTextContainer className="pt-4 pb-4 pb-md-5">
-                I'm a front-end developer based in Azerbaijan and i love
-                learning everything that helps me express my creativity.
+                I'm a front-end developer based in Azerbaijan and I love
+                learning everything that helps me to express my creativity.
               </HeroTextContainer>
               <AnchorTheme
                 themeColor={themeColor}
                 href="https://api.whatsapp.com/send?phone=994552249105"
                 target="_blank"
                 rel="noreferrer"
-                className="btn px-5 py-3"
+                className="btn px-5 py-3 mb-3 me-md-3"
               >
                 Say hello
               </AnchorTheme>
               <AnchorTheme
                 themeColor={themeColor}
-                href="https://drive.google.com/file/d/1yI9Z4f0qjkLStiZoM5otx1psFrmgiLYA/view"
+                href="https://drive.google.com/file/d/1ZRwxp9Yy7Y5iNhnvlPIzz1mIza2I3Nzm/view"
                 download
-                className="btn px-5 py-3"
+                className="btn px-5 py-3 mb-3"
               >
                 CV
               </AnchorTheme>
+              <SocialLinks className="socials">
+              <AnchorTheme
+                themeColor={themeColor}
+                href="https://github.com/sardarliyusif"
+                download
+                className="btn px-4 py-2 social-link me-3"
+              >
+                <AiFillGithub/>
+              </AnchorTheme>
+              <AnchorTheme
+                themeColor={themeColor}
+                href="https://www.linkedin.com/in/yusifsardarli/"
+                download
+                className="btn px-4 py-2 social-link me-3"
+              >
+                <AiFillLinkedin/>
+              </AnchorTheme>
+              <AnchorTheme
+                themeColor={themeColor}
+                href="https://t.me/sardarov_0"
+                download
+                className="btn px-4 py-2 social-link me-3"
+              >
+                <FaTelegram/>
+              </AnchorTheme>
+              <AnchorTheme
+                themeColor={themeColor}
+                href="https://www.instagram.com/sardarov_7/"
+                download
+                className="btn px-4 py-2 social-link"
+              >
+                <AiFillInstagram/>
+              </AnchorTheme>
+              </SocialLinks>
+              
             </div>
             <div className="col-md-3 d-flex align-items-center justify-content-center">
               <div className="mb-5 mb-md-0">
@@ -82,7 +120,23 @@ const AnchorTheme = styled.a`
     color: black;
     background-color: ${(props) => props.themeColor ?? "red"};
   }
+  
 `;
+const SocialLinks = styled.div`
+  @media (max-width: 425px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    .social-link{
+      width: 40%;
+      margin: 0.25rem 0.25rem !important;
+    }
+    
+  }
+`;
+
+
 
 const MainTitle = styled.h1`
   font-size: 2rem;
