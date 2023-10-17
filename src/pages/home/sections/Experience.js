@@ -95,7 +95,7 @@ function ExperienceSection() {
         name: "Remox",
       },
       title: "Intern Front-End-Developer",
-      phase: "Aug 2022 - Still",
+      phase: "Sep 2022 - Nov 2022",
       descriptions: [
         "Developed new components with semantic markup",
         "Improved TS knowledge",
