@@ -49,14 +49,19 @@ function AboutSection() {
       </div>
       <main className="col-md-8">
         <p>
-          i am professional web developer with{" "}
-          <strong>1 + year experience in web development</strong>.I'm constantly
-          developing and learning new technologies in IT.
+          I have graduated with honors in <strong> Information Technology from Azerbaijan
+          Technical University </strong>. I've spent <strong> over a year as a professional
+          front-end developer at Remox</strong>. I'm now actively seeking opportunities
+          to further my skills and take on new challenges in this field.I'm
+          passionate about front-end development, always staying updated with
+          the latest trends. I'm a <strong>strong team player</strong> with a <strong>creative
+          problem-solving mindset</strong>. I'm eager to <strong>collaborate and continue
+          learning</strong>. I'm excited about the possibility of <strong>new opportunities</strong>!
         </p>
         <p>
           The Front-End development is where{" "}
-          <strong>i feel 100% comfortable</strong>, but i'm really into any way
-          of development that i can use my <strong>creativity</strong> and{" "}
+          <strong>I feel 100% comfortable</strong>, but I'm really into any way
+          of development that I can use my <strong>creativity</strong> and{" "}
           <strong>problem solving skills</strong>.
         </p>
         <span>Here are some technologies I have been working with:</span>
@@ -69,9 +74,21 @@ function AboutSection() {
           <li>Boostrap 5</li>
           <li>Next JS</li>
           <li>Tailwind Css</li>
-          <li>Redux</li>
-          <li>Sass</li>
           <li>TypeScript</li>
+          <li>Sass</li>
+          <li>Redux</li>
+          <li>Material UI</li>
+          <li>Redux Toolkit</li>
+          <li>Chakra UI</li>
+          <li>JIRA</li>
+          <li>Git</li>
+          <li>Jquery</li>
+          <li>Github</li>
+          <li>REST API</li>
+          <li>Gitlab</li>
+          <li>Figma</li>
+          <li>NPM</li>
+          <li>Yarn</li>
         </TechList>
       </main>
     </SectionWrapper>

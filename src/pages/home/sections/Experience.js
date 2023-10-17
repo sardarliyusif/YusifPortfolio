@@ -74,26 +74,46 @@ function ExperienceSection() {
     {
       id: 0,
       company: {
+        name: "Remox",
+      },
+      title: "Front-End-Developer",
+      phase: "Dec 2022 - Sep 2023",
+      descriptions: [
+        "Working with technologies such as React JS,Next JS, TS, REST API's",
+        "Modifiying existing features to correct/fix errors, to adapt it to new design",
+        "Implementing user registration, login, logout processes",
+        "Creating new pages and supporting",
+        "Using React Query for fetching, caching, and updating asynchronous data",
+        "Making pages responsive for all devices",
+        "Creating new components in the admin panel/ dashboard by using MaterialUl , ApexCharts, Echarts for React",
+        "Using React Hook Form for creating and maintaining forms, adding validations",
+      ],
+    },
+    {
+      id: 1,
+      company: {
+        name: "Remox",
+      },
+      title: "Intern Front-End-Developer",
+      phase: "Aug 2022 - Still",
+      descriptions: [
+        "Developed new components with semantic markup",
+        "Improved TS knowledge",
+        "Worked with React JS, TS, TailwindCSS",
+      ],
+    },
+    {
+      id: 2,
+      company: {
         name: "Freelance",
       },
       title: "Front-End-Developer",
       phase: "Feb 2021 - Still",
       descriptions: [
-        "Creating landing pages with js, html, javascript for a diverse array of clients",
+        "Creating landing pages and apps for a diverse array of clients",
         "Focus on performance and perfect detailed pages",
       ],
     },
-    // {
-    //   id: 1,
-    //   company: {
-    //     name: "RAM Holding",
-    //   },
-    //   title: "Front-End-Developer",
-    //   phase: "Aug 2022 - Still",
-    //   descriptions: [
-    //     "Creating landing pages and web applications with   javascript, React JS, Vue Js for a diverse array of clients",
-    //   ],
-    // },
   ];
 
   let [themeColor, setThemeColor] = useState([themesColors[2]]);

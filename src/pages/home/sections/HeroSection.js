@@ -39,8 +39,9 @@ function HeroSection() {
               </AnchorTheme>
               <AnchorTheme
                 themeColor={themeColor}
-                href="https://drive.google.com/file/d/1ZRwxp9Yy7Y5iNhnvlPIzz1mIza2I3Nzm/view"
+                href="https://drive.google.com/file/d/1GCYnpl5gpDBS96SCVTEZJCW8r_0W25Nn/view"
                 download
+                target="_blank"
                 className="btn px-5 py-3 mb-3"
               >
                 CV
@@ -50,6 +51,7 @@ function HeroSection() {
                 themeColor={themeColor}
                 href="https://github.com/sardarliyusif"
                 download
+                target="_blank"
                 className="btn px-4 py-2 social-link me-3"
               >
                 <AiFillGithub/>
@@ -58,6 +60,7 @@ function HeroSection() {
                 themeColor={themeColor}
                 href="https://www.linkedin.com/in/yusifsardarli/"
                 download
+                target="_blank"
                 className="btn px-4 py-2 social-link me-3"
               >
                 <AiFillLinkedin/>
@@ -66,14 +69,16 @@ function HeroSection() {
                 themeColor={themeColor}
                 href="https://t.me/sardarov_0"
                 download
+                target="_blank"
                 className="btn px-4 py-2 social-link me-3"
               >
                 <FaTelegram/>
               </AnchorTheme>
               <AnchorTheme
                 themeColor={themeColor}
-                href="https://www.instagram.com/sardarov_7/"
+                href="https://www.instagram.com/sardarliyusif/"
                 download
+                target="_blank"
                 className="btn px-4 py-2 social-link"
               >
                 <AiFillInstagram/>
